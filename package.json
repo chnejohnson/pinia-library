@@ -1,25 +1,25 @@
 {
 	"name": "pinia-library",
-	"version": "0.0.1",
+	"version": "0.0.2-alpha.1",
 	"description": "Pinia library",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/chnejohnson/pinia-lib.git"
+		"url": "git+https://github.com/chnejohnson/pinia-library.git"
 	},
-	"homepage": "https://github.com/chnejohnson/pinia-lib",
+	"homepage": "https://github.com/chnejohnson/pinia-library",
 	"author": "Johnson Chen <https://twitter.com/chnejohnson>",
 	"license": "MIT",
 	"type": "module",
 	"files": [
 		"dist"
 	],
-	"main": "./dist/pinia-lib.umd.js",
-	"module": "./dist/pinia-lib.js",
+	"main": "./dist/pinia-library.umd.cjs",
+	"module": "./dist/pinia-library.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/pinia-lib.js",
-			"require": "./dist/pinia-lib.umd.js"
+			"import": "./dist/pinia-library.js",
+			"require": "./dist/pinia-library.umd.cjs"
 		}
 	},
 	"scripts": {

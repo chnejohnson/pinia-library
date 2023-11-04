@@ -14,7 +14,7 @@ export default defineConfig({
 		assetsDir: 'assets',
 		lib: {
 			entry: path.resolve(__dirname, 'src/index.lib.ts'),
-			name: 'pinia-component',
+			name: 'pinia-library',
 		},
 		outDir: 'dist',
 		rollupOptions: {
